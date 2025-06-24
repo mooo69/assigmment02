@@ -102,6 +102,17 @@ namespace ConsoleApp2
             }
               */
             #endregion
+
+            #region Q6
+            /*Write a program that allows the user to insert an integer then print all numbers between 1 to that number.
+            Console.WriteLine("please enter your number : ");
+            int x = int.Parse(Console.ReadLine());
+
+            for (int i = 1 ; i <= x ; i++ ) {
+                Console.WriteLine( i);
+            }*/
+            #endregion
+
         }
     }
 }
