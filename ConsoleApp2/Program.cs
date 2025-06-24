@@ -125,6 +125,17 @@ namespace ConsoleApp2
             */
             #endregion
 
+            #region Q8
+            /*Write a program that allows to user to insert number then print all even numbers between 1 to this number
+            Console.WriteLine("please enter your number : ");
+            int x = int.Parse(Console.ReadLine());
+
+            for (int i = 1; i <= x; i++)
+            {
+
+                Console.WriteLine(i++);
+            }*/
+            #endregion
         }
     }
 }
