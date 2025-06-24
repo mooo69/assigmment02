@@ -56,11 +56,28 @@ namespace ConsoleApp2
             }
             Console.WriteLine("max number is " + max);
             Console.WriteLine("min number is " + min);*/
-            
-            
-            
+
+
+
             #endregion
 
+            #region Q4
+            /*Write a program that allows the user to insert an integer number then check If a number is even or odd.
+            Console.WriteLine("please enter your number : ");
+            int x = int.Parse(Console.ReadLine());
+
+            if (x % 2 == 0)
+            {
+
+                Console.WriteLine(" Even ");
+            }
+            else
+            {
+                Console.WriteLine(" Odd ");
+            }
+            */
+
+            #endregion
         }
     }
 }
