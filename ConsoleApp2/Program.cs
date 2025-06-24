@@ -1,4 +1,7 @@
-﻿namespace ConsoleApp2
+﻿using System.ComponentModel;
+using System.Xml.Linq;
+
+namespace ConsoleApp2
 {
     internal class Program
     {
@@ -21,15 +24,43 @@
             #endregion
 
             #region Q2
-            //Write a program that allows the user to insert an integer then print negative if it is negative number otherwise print positive.
+            /*Write a program that allows the user to insert an integer then print negative if it is negative number otherwise print positive.
             Console.WriteLine("please enter your number : ");
             int x = int.Parse(Console.ReadLine());
             if (x < 0)
             {
                 Console.WriteLine("negative");
             }
-            else { Console.WriteLine("positive"); }
+            else { Console.WriteLine("positive"); }*/
+            #endregion\
+
+            #region Q3
+            /*Write a program that takes 3 integers from the user then prints the max element and the min element.
+
+
+            Console.WriteLine("please enter your 3 numbers : ");
+            int x = int.Parse(Console.ReadLine());
+            int max = x;
+            int min = x ;
+            for (int i = 0; i < 2; i++) {
+                
+                int z = int.Parse(Console.ReadLine());
+
+
+                if (z > max)
+                    max = z;
+
+                if (z < min)
+                    min = z;
+
+            }
+            Console.WriteLine("max number is " + max);
+            Console.WriteLine("min number is " + min);*/
+            
+            
+            
             #endregion
+
         }
     }
 }
