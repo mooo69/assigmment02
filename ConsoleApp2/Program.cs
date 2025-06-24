@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Reflection.Metadata;
 using System.Xml.Linq;
 
 namespace ConsoleApp2
@@ -77,6 +78,29 @@ namespace ConsoleApp2
             }
             */
 
+            #endregion
+
+            #region Q5
+            /*Write a program that takes character from the user then if it is a vowel chars(a, e, I, o, u) then print(vowel) otherwise print(consonant).
+            Console.WriteLine("please enter a character ");
+            char c = char.Parse(Console.ReadLine());
+
+            switch (c) { 
+            
+            case 'a': Console.WriteLine("Vowel");
+                    break;
+            case 'e': Console.WriteLine("Vowel");
+                    break;
+            case 'I': Console.WriteLine("Vowel");
+                    break;
+            case 'o': Console.WriteLine("Vowel");
+                    break;
+            case 'u': Console.WriteLine("Vowel");
+                    break;
+                    default: Console.WriteLine("Consonant");
+                    break ;
+            }
+              */
             #endregion
         }
     }
