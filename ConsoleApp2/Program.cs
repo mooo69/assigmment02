@@ -113,6 +113,18 @@ namespace ConsoleApp2
             }*/
             #endregion
 
+            #region Q7
+            /*Write a program that allows the user to insert an integer then print a multiplication table up to 12.
+            Console.WriteLine("please enter your number : ");
+            int x = int.Parse(Console.ReadLine());
+
+            for (int i = 1; i <= 12; i++)
+            {
+                Console.WriteLine(i * x );
+            }
+            */
+            #endregion
+
         }
     }
 }
