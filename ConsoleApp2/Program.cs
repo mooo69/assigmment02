@@ -136,6 +136,20 @@ namespace ConsoleApp2
                 Console.WriteLine(i++);
             }*/
             #endregion
+            #region Q9
+            /* Write a program that takes two integers then prints the power.
+            int x = 1;
+            Console.WriteLine("enter the number :");
+            Console.WriteLine("enter the power :");
+            int n =int.Parse(Console.ReadLine());
+            int p = int.Parse(Console.ReadLine());
+            for (int i = 0; i < p; i++)
+            {
+                  x *= n ;          
+            
+            }
+            Console.WriteLine(x);*/
+            #endregion
         }
     }
 }
