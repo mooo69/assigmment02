@@ -249,6 +249,32 @@ namespace ConsoleApp2
             }
             Console.WriteLine("Sum = " + sum);*/
             #endregion
+
+            #region Q14
+
+            #endregion
+
+            #region Q15
+            /* Write a program in C# Sharp to find maximum and minimum element in an array
+
+
+            int[] arr = { 12, 45, 2, 67, 5, 90, 34 }; 
+
+            int max = arr[0];
+            int min = arr[0];
+
+            for (int i = 1; i < arr.Length; i++)
+            {
+                if (arr[i] > max)
+                    max = arr[i];
+                if (arr[i] < min)
+                    min = arr[i];
+            }
+
+            Console.WriteLine("Maximum element is: " + max);
+            Console.WriteLine("Minimum element is: " + min);
+        */
+            #endregion
         }
     }
     
