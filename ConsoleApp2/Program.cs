@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Diagnostics.Metrics;
 using System.Reflection.Metadata;
 using System.Xml.Linq;
 
@@ -136,6 +137,7 @@ namespace ConsoleApp2
                 Console.WriteLine(i++);
             }*/
             #endregion
+
             #region Q9
             /* Write a program that takes two integers then prints the power.
             int x = 1;
@@ -150,6 +152,27 @@ namespace ConsoleApp2
             }
             Console.WriteLine(x);*/
             #endregion
+
+            #region Q10
+            /* Write a program to enter marks of five subjects and calculate total, average and percentage.
+
+            Console.WriteLine("Enter Marks of five subjects: ");
+            int grade = 0;
+            double toutal = 500;
+            for (int i = 0; i < 5; i++) {
+                int x = int.Parse(Console.ReadLine());
+                grade += x;
+            }
+            Console.WriteLine("Total marks = " + grade);
+            Console.WriteLine(" Average Marks = " + grade / 5.0);
+            double percentage = (grade / toutal) * 100; 
+            Console.WriteLine("Percentage = " + percentage +"%");
+            */
+            #endregion
+
+           
+
         }
     }
 }
+
