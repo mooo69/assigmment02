@@ -170,9 +170,58 @@ namespace ConsoleApp2
             */
             #endregion
 
-           
+            #region Q11
+            /* Write a program to input the month number and print the number of days in that month.
 
+            Console.WriteLine("Month Number: ");
+            int month = int .Parse(Console.ReadLine());
+            switch (month) { 
+            
+            
+             case 1:
+                    Console.WriteLine(" 31");
+                    break;
+             case 2:
+                    Console.WriteLine("Days in Month: 28");
+                         break;
+             case 3:
+                    Console.WriteLine("Days in Month: 31");
+                    break;
+             case 4:
+                    Console.WriteLine("Days in Month: 30");
+                    break;
+             case 5:
+                    Console.WriteLine("Days in Month: 31");
+                    break;
+             case 6:
+                    Console.WriteLine("Days in Month: 30");
+                    break;
+             case 7:
+                    Console.WriteLine("Days in Month: 31");
+                    break;
+             case 8:
+                    Console.WriteLine("Days in Month: 30");
+                    break;
+             case 9:
+                    Console.WriteLine("Days in Month: 31");
+                    break;
+             case 10:
+                    Console.WriteLine("Days in Month: 30");
+                    break;
+             case 11:
+                    Console.WriteLine("Days in Month: 31");
+                    break;
+             case 12:
+                    Console.WriteLine("Days in Month: 30");
+                    break;
+                    default:
+                    Console.WriteLine("The month number you entered does not exist");
+                    break ;*/
+            #endregion
         }
+
+
     }
+    
 }
 
