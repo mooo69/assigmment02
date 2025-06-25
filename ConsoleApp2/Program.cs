@@ -218,10 +218,27 @@ namespace ConsoleApp2
                     Console.WriteLine("The month number you entered does not exist");
                     break ;*/
             #endregion
-        }
+
+            #region Q12
+          /*
+            Console.Write("Enter the size of the identity matrix: ");
+            int n = int.Parse(Console.ReadLine());
 
 
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    if (i == j)
+                        Console.Write("1 ");
+                    else
+                        Console.Write("0 ");
+                }
+                Console.WriteLine();
+               }*/
+        #endregion
     }
+}
     
 }
 
