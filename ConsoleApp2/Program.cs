@@ -220,25 +220,37 @@ namespace ConsoleApp2
             #endregion
 
             #region Q12
-          /*
-            Console.Write("Enter the size of the identity matrix: ");
-            int n = int.Parse(Console.ReadLine());
+            /*
+              Console.Write("Enter the size of the identity matrix: ");
+              int n = int.Parse(Console.ReadLine());
 
 
-            for (int i = 0; i < n; i++)
+              for (int i = 0; i < n; i++)
+              {
+                  for (int j = 0; j < n; j++)
+                  {
+                      if (i == j)
+                          Console.Write("1 ");
+                      else
+                          Console.Write("0 ");
+                  }
+                  Console.WriteLine();
+                 }*/
+            #endregion
+
+            #region Q13
+            /*Write a program in C# Sharp to find the sum of all elements of the array.
+            int[] arr = { 1, 2, 3, 4, 5 }; 
+            int sum = 0;
+
+            for (int i = 0; i < arr.Length; i++)
             {
-                for (int j = 0; j < n; j++)
-                {
-                    if (i == j)
-                        Console.Write("1 ");
-                    else
-                        Console.Write("0 ");
-                }
-                Console.WriteLine();
-               }*/
-        #endregion
+                sum += arr[i];
+            }
+            Console.WriteLine("Sum = " + sum);*/
+            #endregion
+        }
     }
-}
     
 }
 
